@@ -1,4 +1,3 @@
-// I know not much here, but it makes the code less
 var db = (function(window) {
 
     // Setter

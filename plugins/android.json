@@ -1,18 +1,18 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-bluetooth-serial": {
+      "PACKAGE_NAME": "co.za.thatguy.blink"
     },
-    "config_munge": {
-        "files": {}
-    },
-    "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "co.za.thatguy.blink"
-        },
-        "cordova-plugin-bluetooth-serial": {
-            "PACKAGE_NAME": "co.za.thatguy.blink"
-        }
-    },
-    "dependent_plugins": {}
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "co.za.thatguy.blink"
+    }
+  },
+  "dependent_plugins": {}
 }

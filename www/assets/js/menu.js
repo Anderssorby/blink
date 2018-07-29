@@ -101,4 +101,15 @@ $(function(){
 
         menuOpen = false;
     });
+
+    // Command buttons
+    $('.btn-lock').click(function() {
+        bth.action("lock");
+    });
+
+    $('.btn-reconnect').click(function() {
+        bth.connect();
+    });
+
+
 });

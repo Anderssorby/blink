@@ -17,11 +17,6 @@ var bth = (function($, window, db, loader) {
         $(".no-devices").hide();
         $(".connected").hide();
         loader.close();
-
-        /*$(".status-on").show();
-        $(".status-off").show();
-        $(".no-devices").show();
-        $(".connected").show();*/
     }
 
 
@@ -234,6 +229,10 @@ var bth = (function($, window, db, loader) {
           console.log("Tap Detected: " + $(this).data("action"));
           bth.action($(this).data("action"));
         });
+        $(".action-button").on("click", function(){
+            console.log("Tap Detected: " + $(this).data("action"));
+            bth.action($(this).data("action"));
+        });
     }
 
 
@@ -263,6 +262,7 @@ var bth = (function($, window, db, loader) {
     return {
         // Only the connect function is exposed at the moment
         connect: _connect,
+        reconnect: _reconnect,
         action: _action
     };
 
